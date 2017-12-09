@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>942094206225-5om5c4aul6htk1bsokk7cc9eucdlu834.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.942094206225-5om5c4aul6htk1bsokk7cc9eucdlu834</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB0gvqXXwVp9cBV1IRbaVfg9cNXMrdsVaA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>942094206225</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.gvsu.cis.bensonn.VenU-App</string>
+	<key>PROJECT_ID</key>
+	<string>venuapp-1512344623565</string>
+	<key>STORAGE_BUCKET</key>
+	<string>venuapp-1512344623565.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:942094206225:ios:b6cfb460b01d56b3</string>
+	<key>DATABASE_URL</key>
+	<string>https://venuapp-1512344623565.firebaseio.com</string>
+</dict>
+</plist>

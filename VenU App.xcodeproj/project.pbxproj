@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0CCE6146C2769BDD4F91AD /* Pods_VenU_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAD751F3CBA3AFEB3686E42 /* Pods_VenU_AppUITests.framework */; };
+		3314AE971FD09D59001D8568 /* EventObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3314AE961FD09D59001D8568 /* EventObject.swift */; };
+		3314AE991FD09F2B001D8568 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3314AE981FD09F2B001D8568 /* AccountViewController.swift */; };
+		3314AE9B1FD0B04F001D8568 /* EventObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3314AE9A1FD0B04F001D8568 /* EventObjectModel.swift */; };
+		3314AE9D1FD0BAB4001D8568 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3314AE9C1FD0BAB4001D8568 /* EventTableViewCell.swift */; };
+		3341D53B1FD4ECCA0067CE88 /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3341D53A1FD4ECCA0067CE88 /* map.jpg */; };
+		3341D53D1FD4F25F0067CE88 /* city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3341D53C1FD4F25F0067CE88 /* city.jpg */; };
+		335FB3E51FD5B12E00042929 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 335FB3E41FD5B12E00042929 /* GoogleService-Info.plist */; };
+		335FB3E71FD5B3DE00042929 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335FB3E61FD5B3DE00042929 /* SignUpViewController.swift */; };
+		335FB3E91FD5BEB600042929 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335FB3E81FD5BEB600042929 /* user.swift */; };
+		33836AF61FDA83C80000FDCC /* unnamed-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 33836AF21FDA83C80000FDCC /* unnamed-3.png */; };
+		33836AF81FDA855F0000FDCC /* unnamed-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 33836AF71FDA855F0000FDCC /* unnamed-4.png */; };
+		33836AFA1FDA88FD0000FDCC /* unnamed-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 33836AF91FDA88FD0000FDCC /* unnamed-1.png */; };
+		33836AFC1FDA89010000FDCC /* unnamed-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 33836AFB1FDA89010000FDCC /* unnamed-2.png */; };
+		33836AFE1FDA89130000FDCC /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 33836AFD1FDA89130000FDCC /* unnamed.png */; };
+		33836B011FDAC9C10000FDCC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33836B001FDAC9C10000FDCC /* CoreLocation.framework */; };
+		3396D68F1FD72381001E0761 /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3396D68E1FD72381001E0761 /* EventDetailsViewController.swift */; };
+		33977A891FDB94EF00F75586 /* breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33977A881FDB94EF00F75586 /* breakfast.jpg */; };
+		33977A8B1FDB954600F75586 /* lunch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33977A8A1FDB954600F75586 /* lunch.jpg */; };
+		33977A8D1FDB959F00F75586 /* dinner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33977A8C1FDB959F00F75586 /* dinner.jpg */; };
+		33977A8F1FDB95C900F75586 /* camping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33977A8E1FDB95C900F75586 /* camping.jpg */; };
+		33977A911FDB961F00F75586 /* latenight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33977A901FDB961F00F75586 /* latenight.jpg */; };
+		33977A931FDB965200F75586 /* sport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33977A921FDB965200F75586 /* sport.jpg */; };
+		33977A951FDB968900F75586 /* college.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33977A941FDB968900F75586 /* college.jpg */; };
+		33977A971FDB96AF00F75586 /* concert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33977A961FDB96AF00F75586 /* concert.jpg */; };
+		33977A991FDB96DD00F75586 /* party.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33977A981FDB96DD00F75586 /* party.jpg */; };
+		339BF4401FCDE3170071670E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339BF43F1FCDE3170071670E /* AppDelegate.swift */; };
+		339BF4421FCDE3170071670E /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339BF4411FCDE3170071670E /* AddEventViewController.swift */; };
+		339BF4441FCDE3170071670E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339BF4431FCDE3170071670E /* DashboardViewController.swift */; };
+		339BF4471FCDE3170071670E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339BF4451FCDE3170071670E /* Main.storyboard */; };
+		339BF4491FCDE3170071670E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339BF4481FCDE3170071670E /* Assets.xcassets */; };
+		339BF44C1FCDE3170071670E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339BF44A1FCDE3170071670E /* LaunchScreen.storyboard */; };
+		339BF4571FCDE3170071670E /* VenU_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339BF4561FCDE3170071670E /* VenU_AppTests.swift */; };
+		339BF4621FCDE3170071670E /* VenU_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339BF4611FCDE3170071670E /* VenU_AppUITests.swift */; };
+		339BF4701FCDEC0E0071670E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339BF46F1FCDEC0E0071670E /* LoginViewController.swift */; };
+		67D75167F98E5E30622DDFC9 /* Pods_VenU_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45F14CF42994D7993A78D9E /* Pods_VenU_App.framework */; };
+		C9B79ECAAC5B79C8C27B40C1 /* Pods_VenU_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1989A826C91376E1D40ADDAF /* Pods_VenU_AppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		339BF4531FCDE3170071670E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339BF4341FCDE3160071670E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339BF43B1FCDE3170071670E;
+			remoteInfo = "VenU App";
+		};
+		339BF45E1FCDE3170071670E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339BF4341FCDE3160071670E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339BF43B1FCDE3170071670E;
+			remoteInfo = "VenU App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1989A826C91376E1D40ADDAF /* Pods_VenU_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenU_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCD6088C32469E02E422E70 /* Pods-VenU AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenU AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenU AppTests/Pods-VenU AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3314AE961FD09D59001D8568 /* EventObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventObject.swift; sourceTree = "<group>"; };
+		3314AE981FD09F2B001D8568 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		3314AE9A1FD0B04F001D8568 /* EventObjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventObjectModel.swift; sourceTree = "<group>"; };
+		3314AE9C1FD0BAB4001D8568 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		3341D53A1FD4ECCA0067CE88 /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = map.jpg; path = ../../../map.jpg; sourceTree = "<group>"; };
+		3341D53C1FD4F25F0067CE88 /* city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = city.jpg; path = ../../../city.jpg; sourceTree = "<group>"; };
+		335FB3E41FD5B12E00042929 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		335FB3E61FD5B3DE00042929 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		335FB3E81FD5BEB600042929 /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		33836AF21FDA83C80000FDCC /* unnamed-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unnamed-3.png"; sourceTree = "<group>"; };
+		33836AF71FDA855F0000FDCC /* unnamed-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unnamed-4.png"; sourceTree = "<group>"; };
+		33836AF91FDA88FD0000FDCC /* unnamed-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unnamed-1.png"; sourceTree = "<group>"; };
+		33836AFB1FDA89010000FDCC /* unnamed-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unnamed-2.png"; sourceTree = "<group>"; };
+		33836AFD1FDA89130000FDCC /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		33836B001FDAC9C10000FDCC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3396D68E1FD72381001E0761 /* EventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		33977A881FDB94EF00F75586 /* breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = breakfast.jpg; path = ../../../breakfast.jpg; sourceTree = "<group>"; };
+		33977A8A1FDB954600F75586 /* lunch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lunch.jpg; path = ../../../lunch.jpg; sourceTree = "<group>"; };
+		33977A8C1FDB959F00F75586 /* dinner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dinner.jpg; path = ../../../dinner.jpg; sourceTree = "<group>"; };
+		33977A8E1FDB95C900F75586 /* camping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = camping.jpg; path = ../../../camping.jpg; sourceTree = "<group>"; };
+		33977A901FDB961F00F75586 /* latenight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = latenight.jpg; path = ../../../latenight.jpg; sourceTree = "<group>"; };
+		33977A921FDB965200F75586 /* sport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sport.jpg; path = ../../../sport.jpg; sourceTree = "<group>"; };
+		33977A941FDB968900F75586 /* college.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = college.jpg; path = ../../../college.jpg; sourceTree = "<group>"; };
+		33977A961FDB96AF00F75586 /* concert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = concert.jpg; path = ../../../concert.jpg; sourceTree = "<group>"; };
+		33977A981FDB96DD00F75586 /* party.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = party.jpg; path = ../../../party.jpg; sourceTree = "<group>"; };
+		339BF43C1FCDE3170071670E /* VenU App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VenU App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		339BF43F1FCDE3170071670E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		339BF4411FCDE3170071670E /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		339BF4431FCDE3170071670E /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		339BF4461FCDE3170071670E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		339BF4481FCDE3170071670E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339BF44B1FCDE3170071670E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		339BF44D1FCDE3170071670E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339BF4521FCDE3170071670E /* VenU AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VenU AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		339BF4561FCDE3170071670E /* VenU_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenU_AppTests.swift; sourceTree = "<group>"; };
+		339BF4581FCDE3170071670E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339BF45D1FCDE3170071670E /* VenU AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VenU AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		339BF4611FCDE3170071670E /* VenU_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenU_AppUITests.swift; sourceTree = "<group>"; };
+		339BF4631FCDE3170071670E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339BF46F1FCDEC0E0071670E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5B45D989CF625BE62B1503DD /* Pods-VenU AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenU AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenU AppUITests/Pods-VenU AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B88D9197396750A72B82545 /* Pods-VenU AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenU AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VenU AppUITests/Pods-VenU AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9BAD751F3CBA3AFEB3686E42 /* Pods_VenU_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenU_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45F14CF42994D7993A78D9E /* Pods_VenU_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenU_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84C9B593D4C2BF190F036EA /* Pods-VenU AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenU AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VenU AppTests/Pods-VenU AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAB6C146D890ACDE35A4C764 /* Pods-VenU App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenU App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenU App/Pods-VenU App.debug.xcconfig"; sourceTree = "<group>"; };
+		F0417EDC5F6CC4171BED0E33 /* Pods-VenU App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenU App.release.xcconfig"; path = "Pods/Target Support Files/Pods-VenU App/Pods-VenU App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		339BF4391FCDE3170071670E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33836B011FDAC9C10000FDCC /* CoreLocation.framework in Frameworks */,
+				67D75167F98E5E30622DDFC9 /* Pods_VenU_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339BF44F1FCDE3170071670E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B79ECAAC5B79C8C27B40C1 /* Pods_VenU_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339BF45A1FCDE3170071670E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0CCE6146C2769BDD4F91AD /* Pods_VenU_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33836AFF1FDABE410000FDCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33977A871FDB931600F75586 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				33977A881FDB94EF00F75586 /* breakfast.jpg */,
+				33977A8A1FDB954600F75586 /* lunch.jpg */,
+				33977A8C1FDB959F00F75586 /* dinner.jpg */,
+				33977A8E1FDB95C900F75586 /* camping.jpg */,
+				33977A901FDB961F00F75586 /* latenight.jpg */,
+				33977A921FDB965200F75586 /* sport.jpg */,
+				33977A941FDB968900F75586 /* college.jpg */,
+				33977A961FDB96AF00F75586 /* concert.jpg */,
+				33977A981FDB96DD00F75586 /* party.jpg */,
+				33836AFD1FDA89130000FDCC /* unnamed.png */,
+				33836AF91FDA88FD0000FDCC /* unnamed-1.png */,
+				33836AF21FDA83C80000FDCC /* unnamed-3.png */,
+				33836AFB1FDA89010000FDCC /* unnamed-2.png */,
+				33836AF71FDA855F0000FDCC /* unnamed-4.png */,
+				3341D53C1FD4F25F0067CE88 /* city.jpg */,
+				3341D53A1FD4ECCA0067CE88 /* map.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		339BF4331FCDE3160071670E = {
+			isa = PBXGroup;
+			children = (
+				339BF43E1FCDE3170071670E /* VenU App */,
+				339BF4551FCDE3170071670E /* VenU AppTests */,
+				339BF4601FCDE3170071670E /* VenU AppUITests */,
+				339BF43D1FCDE3170071670E /* Products */,
+				A318AE5711D99B8DDEA41255 /* Pods */,
+				8F9A26672B4CA55D32D704E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		339BF43D1FCDE3170071670E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				339BF43C1FCDE3170071670E /* VenU App.app */,
+				339BF4521FCDE3170071670E /* VenU AppTests.xctest */,
+				339BF45D1FCDE3170071670E /* VenU AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339BF43E1FCDE3170071670E /* VenU App */ = {
+			isa = PBXGroup;
+			children = (
+				33977A871FDB931600F75586 /* Images */,
+				339BF43F1FCDE3170071670E /* AppDelegate.swift */,
+				339BF46F1FCDEC0E0071670E /* LoginViewController.swift */,
+				339BF4411FCDE3170071670E /* AddEventViewController.swift */,
+				339BF4431FCDE3170071670E /* DashboardViewController.swift */,
+				3396D68E1FD72381001E0761 /* EventDetailsViewController.swift */,
+				3314AE9A1FD0B04F001D8568 /* EventObjectModel.swift */,
+				3314AE981FD09F2B001D8568 /* AccountViewController.swift */,
+				335FB3E81FD5BEB600042929 /* user.swift */,
+				335FB3E61FD5B3DE00042929 /* SignUpViewController.swift */,
+				3314AE9C1FD0BAB4001D8568 /* EventTableViewCell.swift */,
+				3314AE961FD09D59001D8568 /* EventObject.swift */,
+				339BF4481FCDE3170071670E /* Assets.xcassets */,
+				339BF4451FCDE3170071670E /* Main.storyboard */,
+				339BF44A1FCDE3170071670E /* LaunchScreen.storyboard */,
+				33836AFF1FDABE410000FDCC /* Frameworks */,
+				339BF44D1FCDE3170071670E /* Info.plist */,
+				335FB3E41FD5B12E00042929 /* GoogleService-Info.plist */,
+			);
+			path = "VenU App";
+			sourceTree = "<group>";
+		};
+		339BF4551FCDE3170071670E /* VenU AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				339BF4561FCDE3170071670E /* VenU_AppTests.swift */,
+				339BF4581FCDE3170071670E /* Info.plist */,
+			);
+			path = "VenU AppTests";
+			sourceTree = "<group>";
+		};
+		339BF4601FCDE3170071670E /* VenU AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				339BF4611FCDE3170071670E /* VenU_AppUITests.swift */,
+				339BF4631FCDE3170071670E /* Info.plist */,
+			);
+			path = "VenU AppUITests";
+			sourceTree = "<group>";
+		};
+		8F9A26672B4CA55D32D704E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33836B001FDAC9C10000FDCC /* CoreLocation.framework */,
+				C45F14CF42994D7993A78D9E /* Pods_VenU_App.framework */,
+				1989A826C91376E1D40ADDAF /* Pods_VenU_AppTests.framework */,
+				9BAD751F3CBA3AFEB3686E42 /* Pods_VenU_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A318AE5711D99B8DDEA41255 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAB6C146D890ACDE35A4C764 /* Pods-VenU App.debug.xcconfig */,
+				F0417EDC5F6CC4171BED0E33 /* Pods-VenU App.release.xcconfig */,
+				2CCD6088C32469E02E422E70 /* Pods-VenU AppTests.debug.xcconfig */,
+				D84C9B593D4C2BF190F036EA /* Pods-VenU AppTests.release.xcconfig */,
+				5B45D989CF625BE62B1503DD /* Pods-VenU AppUITests.debug.xcconfig */,
+				6B88D9197396750A72B82545 /* Pods-VenU AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		339BF43B1FCDE3170071670E /* VenU App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339BF4661FCDE3170071670E /* Build configuration list for PBXNativeTarget "VenU App" */;
+			buildPhases = (
+				F561062B4B09041078180CAE /* [CP] Check Pods Manifest.lock */,
+				339BF4381FCDE3170071670E /* Sources */,
+				339BF4391FCDE3170071670E /* Frameworks */,
+				339BF43A1FCDE3170071670E /* Resources */,
+				31BD7CD280C003B685D81705 /* [CP] Embed Pods Frameworks */,
+				994B3B62F46F4406FB5B2AF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VenU App";
+			productName = "VenU App";
+			productReference = 339BF43C1FCDE3170071670E /* VenU App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		339BF4511FCDE3170071670E /* VenU AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339BF4691FCDE3170071670E /* Build configuration list for PBXNativeTarget "VenU AppTests" */;
+			buildPhases = (
+				DAAB304FF6015B273AB4C072 /* [CP] Check Pods Manifest.lock */,
+				339BF44E1FCDE3170071670E /* Sources */,
+				339BF44F1FCDE3170071670E /* Frameworks */,
+				339BF4501FCDE3170071670E /* Resources */,
+				05DFEFEF92422815F1FC01EC /* [CP] Embed Pods Frameworks */,
+				176D420DBE860F499E74F971 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339BF4541FCDE3170071670E /* PBXTargetDependency */,
+			);
+			name = "VenU AppTests";
+			productName = "VenU AppTests";
+			productReference = 339BF4521FCDE3170071670E /* VenU AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		339BF45C1FCDE3170071670E /* VenU AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339BF46C1FCDE3170071670E /* Build configuration list for PBXNativeTarget "VenU AppUITests" */;
+			buildPhases = (
+				047AEAEDE24C2125C6DD0DB0 /* [CP] Check Pods Manifest.lock */,
+				339BF4591FCDE3170071670E /* Sources */,
+				339BF45A1FCDE3170071670E /* Frameworks */,
+				339BF45B1FCDE3170071670E /* Resources */,
+				CA01903EDFCA810722BACCFA /* [CP] Embed Pods Frameworks */,
+				B5F993BBD41638591FDC8267 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339BF45F1FCDE3170071670E /* PBXTargetDependency */,
+			);
+			name = "VenU AppUITests";
+			productName = "VenU AppUITests";
+			productReference = 339BF45D1FCDE3170071670E /* VenU AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		339BF4341FCDE3160071670E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nate Benson";
+				TargetAttributes = {
+					339BF43B1FCDE3170071670E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					339BF4511FCDE3170071670E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 339BF43B1FCDE3170071670E;
+					};
+					339BF45C1FCDE3170071670E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 339BF43B1FCDE3170071670E;
+					};
+				};
+			};
+			buildConfigurationList = 339BF4371FCDE3160071670E /* Build configuration list for PBXProject "VenU App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 339BF4331FCDE3160071670E;
+			productRefGroup = 339BF43D1FCDE3170071670E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				339BF43B1FCDE3170071670E /* VenU App */,
+				339BF4511FCDE3170071670E /* VenU AppTests */,
+				339BF45C1FCDE3170071670E /* VenU AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		339BF43A1FCDE3170071670E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33836AF81FDA855F0000FDCC /* unnamed-4.png in Resources */,
+				33977A931FDB965200F75586 /* sport.jpg in Resources */,
+				33977A8B1FDB954600F75586 /* lunch.jpg in Resources */,
+				33836AFE1FDA89130000FDCC /* unnamed.png in Resources */,
+				33977A971FDB96AF00F75586 /* concert.jpg in Resources */,
+				33977A8F1FDB95C900F75586 /* camping.jpg in Resources */,
+				33836AF61FDA83C80000FDCC /* unnamed-3.png in Resources */,
+				3341D53B1FD4ECCA0067CE88 /* map.jpg in Resources */,
+				335FB3E51FD5B12E00042929 /* GoogleService-Info.plist in Resources */,
+				3341D53D1FD4F25F0067CE88 /* city.jpg in Resources */,
+				339BF44C1FCDE3170071670E /* LaunchScreen.storyboard in Resources */,
+				33836AFA1FDA88FD0000FDCC /* unnamed-1.png in Resources */,
+				33977A991FDB96DD00F75586 /* party.jpg in Resources */,
+				33836AFC1FDA89010000FDCC /* unnamed-2.png in Resources */,
+				339BF4491FCDE3170071670E /* Assets.xcassets in Resources */,
+				33977A951FDB968900F75586 /* college.jpg in Resources */,
+				33977A911FDB961F00F75586 /* latenight.jpg in Resources */,
+				33977A8D1FDB959F00F75586 /* dinner.jpg in Resources */,
+				339BF4471FCDE3170071670E /* Main.storyboard in Resources */,
+				33977A891FDB94EF00F75586 /* breakfast.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339BF4501FCDE3170071670E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339BF45B1FCDE3170071670E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		047AEAEDE24C2125C6DD0DB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		05DFEFEF92422815F1FC01EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenU AppTests/Pods-VenU AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		176D420DBE860F499E74F971 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenU AppTests/Pods-VenU AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31BD7CD280C003B685D81705 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenU App/Pods-VenU App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		994B3B62F46F4406FB5B2AF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenU App/Pods-VenU App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F993BBD41638591FDC8267 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenU AppUITests/Pods-VenU AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA01903EDFCA810722BACCFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenU AppUITests/Pods-VenU AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAAB304FF6015B273AB4C072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F561062B4B09041078180CAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339BF4381FCDE3170071670E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335FB3E91FD5BEB600042929 /* user.swift in Sources */,
+				3314AE9D1FD0BAB4001D8568 /* EventTableViewCell.swift in Sources */,
+				339BF4701FCDEC0E0071670E /* LoginViewController.swift in Sources */,
+				3314AE971FD09D59001D8568 /* EventObject.swift in Sources */,
+				3314AE991FD09F2B001D8568 /* AccountViewController.swift in Sources */,
+				339BF4441FCDE3170071670E /* DashboardViewController.swift in Sources */,
+				3314AE9B1FD0B04F001D8568 /* EventObjectModel.swift in Sources */,
+				335FB3E71FD5B3DE00042929 /* SignUpViewController.swift in Sources */,
+				339BF4401FCDE3170071670E /* AppDelegate.swift in Sources */,
+				3396D68F1FD72381001E0761 /* EventDetailsViewController.swift in Sources */,
+				339BF4421FCDE3170071670E /* AddEventViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339BF44E1FCDE3170071670E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339BF4571FCDE3170071670E /* VenU_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339BF4591FCDE3170071670E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339BF4621FCDE3170071670E /* VenU_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		339BF4541FCDE3170071670E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339BF43B1FCDE3170071670E /* VenU App */;
+			targetProxy = 339BF4531FCDE3170071670E /* PBXContainerItemProxy */;
+		};
+		339BF45F1FCDE3170071670E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339BF43B1FCDE3170071670E /* VenU App */;
+			targetProxy = 339BF45E1FCDE3170071670E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		339BF4451FCDE3170071670E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339BF4461FCDE3170071670E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		339BF44A1FCDE3170071670E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339BF44B1FCDE3170071670E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		339BF4641FCDE3170071670E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		339BF4651FCDE3170071670E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		339BF4671FCDE3170071670E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB6C146D890ACDE35A4C764 /* Pods-VenU App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VenU App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.bensonn.VenU-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		339BF4681FCDE3170071670E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0417EDC5F6CC4171BED0E33 /* Pods-VenU App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VenU App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.bensonn.VenU-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		339BF46A1FCDE3170071670E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CCD6088C32469E02E422E70 /* Pods-VenU AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VenU AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.bensonn.VenU-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenU App.app/VenU App";
+			};
+			name = Debug;
+		};
+		339BF46B1FCDE3170071670E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84C9B593D4C2BF190F036EA /* Pods-VenU AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VenU AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.bensonn.VenU-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenU App.app/VenU App";
+			};
+			name = Release;
+		};
+		339BF46D1FCDE3170071670E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B45D989CF625BE62B1503DD /* Pods-VenU AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "VenU AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.bensonn.VenU-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "VenU App";
+			};
+			name = Debug;
+		};
+		339BF46E1FCDE3170071670E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B88D9197396750A72B82545 /* Pods-VenU AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "VenU AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.bensonn.VenU-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "VenU App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		339BF4371FCDE3160071670E /* Build configuration list for PBXProject "VenU App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339BF4641FCDE3170071670E /* Debug */,
+				339BF4651FCDE3170071670E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339BF4661FCDE3170071670E /* Build configuration list for PBXNativeTarget "VenU App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339BF4671FCDE3170071670E /* Debug */,
+				339BF4681FCDE3170071670E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339BF4691FCDE3170071670E /* Build configuration list for PBXNativeTarget "VenU AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339BF46A1FCDE3170071670E /* Debug */,
+				339BF46B1FCDE3170071670E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339BF46C1FCDE3170071670E /* Build configuration list for PBXNativeTarget "VenU AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339BF46D1FCDE3170071670E /* Debug */,
+				339BF46E1FCDE3170071670E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 339BF4341FCDE3160071670E /* Project object */;
+}
